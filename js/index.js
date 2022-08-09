@@ -43,7 +43,7 @@ function creoID() {
 }
 
 function agregarProductos() {
-    debugger
+    //debugger
     let id = creoID()
     let descripcion = prompt("Ingresa el nombre del Producto:")
     let importe = parseInt(prompt("Ingresa el importe:"))
