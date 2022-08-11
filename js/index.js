@@ -1,5 +1,5 @@
 //debugger
-/*
+
 function eleccionProducto() {
     let presentar = confirm("Tiene los siguientes productos a elegir: blanco, negro y gris.")
     let eleccion = prompt("Indica que producto vas a llevar")
@@ -19,11 +19,12 @@ function presupuesto(color) {
             return "No tenemos ese producto disponible"
     }
 }
-eleccionProducto () */
+eleccionProducto ()
 
 //debugger
 const celulares = []
 const carrito = []
+const productos = ['iphone', 'samsung', 'sony', 'motorola']
 const iPhonex = {
     memoria: "350gb",
     bateria: "%93",
@@ -49,7 +50,15 @@ function agregarProductos() {
     celulares.push(new producto(id, descripcion, importe))
     console.table(celulares)
 }
+//debugger
+function buscarproductos(){
+    let aviso = confirm("Productos disponibles: iPhone, Samsung, Sony y Motorola")
+    let src = prompt("Ingrese el nombre del producto a buscar")
+    const resultado = productos.filter(productos => productos.length === aviso)
+    console.log(resultado)
+}
 agregarProductos()
+buscarproductos()
 
 
 
