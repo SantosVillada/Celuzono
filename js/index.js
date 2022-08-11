@@ -21,7 +21,7 @@ function presupuesto(color) {
 }
 eleccionProducto () */
 
-debugger
+//debugger
 const celulares = []
 const carrito = []
 const iPhonex = {
