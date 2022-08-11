@@ -21,10 +21,9 @@ function presupuesto(color) {
 }
 eleccionProducto () */
 
-//debugger
+debugger
 const celulares = []
 const carrito = []
-const celular = [iPhonex, iPhone11, iPhone12, iPhone13]
 const iPhonex = {
     memoria: "350gb",
     bateria: "%93",
