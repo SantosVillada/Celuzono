@@ -1,5 +1,10 @@
 //debugger
 
+const descripcion = document.querySelector ("#descripcion")
+const importe = document.querySelector("#importe")
+const texto = document.querySelector("#textoinner")
+texto.innerHTML = "<h1>Probando InnerText</h1>"
+
 function eleccionProducto() {
     let presentar = confirm("Tiene los siguientes productos a elegir: blanco, negro y gris.")
     let eleccion = prompt("Indica que producto vas a llevar")
