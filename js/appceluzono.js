@@ -6,24 +6,24 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || []
 const productos = [{
         nombre: "iPhonex",
         precio: "800",
-        id: creoID(),
+        id: 1000,
     },
     {
         nombre: "iPhone11",
         precio: "950",
-        id: creoID(),
+        id: 1001,
     },
     {
         nombre: "iPhone12",
         precio: "1150",
-        id: creoID(),
+        id: 1002,
     },
 
 ];
 
-function creoID() {
+/* function creoID() {
     return parseInt(Math.random() * 100000)
-}
+} */
 
 
 
@@ -44,6 +44,7 @@ function funcionBtn() {
         document.querySelector(`#btn-agregar${prod.id}`).addEventListener("click", () => {
             console.log(prod);
             agregarAlCarrito(prod)
+            Swal.fire('Agregaste al carrito')
         })
     })
 }
@@ -74,6 +75,7 @@ function crearCarrito() {
     });
     localStorage.setItem("carrito", JSON.stringify(carrito))
     borrarProducto()
+    
 }
 
 function borrarProducto() {
@@ -83,6 +85,7 @@ function borrarProducto() {
             .addEventListener("click", () => {
                 carrito = carrito.filter((prodfilter) => prodfilter.id !== prod.id);
                 crearCarrito()
+                Swal.fire('Eliminaste el producto')
             });
     })
 }
