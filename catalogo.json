@@ -1,17 +1,42 @@
 [
     {
-        "articulo": "Iphone x",
+        "articulo": "IPhone X",
         "precio": "$500",
-        "id": "300"
+        "id": "ID: 300"
     },
     {
-        "articulo": "Iphone 11",
+        "articulo": "IPhone 11",
         "precio": "$650",
-        "id": "301"
+        "id": "ID: 301"
     },
     {
-        "articulo": "Iphone 12",
+        "articulo": "IPhone 12",
         "precio": "$750",
         "id": "ID: 302"
+    },
+    {
+        "articulo": "IPhone 12Pro",
+        "precio": "$800",
+        "id": "ID: 303"
+    },
+    {
+        "articulo": "IPhone 12ProMax",
+        "precio": "$850",
+        "id":"ID: 304"
+    },
+    {
+        "articulo": "IPhone 13",
+        "precio": "$900",
+        "id": "ID: 305"
+    },
+    {
+        "articulo": "IPhone 13Pro",
+        "precio": "$950",
+        "id": "ID: 306"
+    },
+    {
+        "articulo":"IPhone 13ProMax",
+        "precio": "$1000",
+        "id":"ID: 307"
     }
 ]
