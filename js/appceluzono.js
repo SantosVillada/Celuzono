@@ -2,7 +2,7 @@ const divCelulares = document.querySelector(".divCelulares");
 const divCarrito = document.querySelector(".carrito");
 let carrito = JSON.parse(localStorage.getItem("carrito")) || []
 
-
+/* 
 const productos = [{
         nombre: "iPhonex",
         precio: "800",
@@ -19,7 +19,7 @@ const productos = [{
         id: 1002,
     },
 
-];
+]; */
 
 /* function creoID() {
     return parseInt(Math.random() * 100000)

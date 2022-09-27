@@ -1,42 +1,62 @@
 [
     {
+        "articulo": "IPhone XR",
+        "precio": "450",
+        "id": "ID: 299",
+        "img": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_blue-back_09122018_carousel.jpg.large.jpg"
+    },
+    {
         "articulo": "IPhone X",
-        "precio": "$500",
-        "id": "ID: 300"
+        "precio": "500",
+        "id": "ID: 300",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_796292-MLA50638648982_072022-V.jpg"
     },
     {
         "articulo": "IPhone 11",
-        "precio": "$650",
-        "id": "ID: 301"
+        "precio": "650",
+        "id": "ID: 301",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_656548-MLA46114829749_052021-V.jpg"
+    },
+    {
+        "articulo": "IPhone 11Pro",
+        "precio": "700",
+        "id": "308",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_798720-MLA32647234395_102019-O.jpg"
     },
     {
         "articulo": "IPhone 12",
-        "precio": "$750",
-        "id": "ID: 302"
+        "precio": "750",
+        "id": "ID: 302",
+        "img": "https://www.mylshop.com.ar/wp-content/uploads/2022/03/apple-iphone-12-128gb-verde.jpg"
     },
     {
         "articulo": "IPhone 12Pro",
-        "precio": "$800",
-        "id": "ID: 303"
+        "precio": "800",
+        "id": "ID: 303",
+        "img": "https://res-1.cloudinary.com/grover/image/upload/v1630928775/nfukjdvq7ivnozg58fyj.png"
     },
     {
         "articulo": "IPhone 12ProMax",
-        "precio": "$850",
-        "id":"ID: 304"
+        "precio": "850",
+        "id":"ID: 304",
+        "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-iphone-12-pro-max-blue-2020?wid=2000&hei=1897&fmt=jpeg&qlt=95&.v=1635202944000"
     },
     {
         "articulo": "IPhone 13",
-        "precio": "$900",
-        "id": "ID: 305"
+        "precio": "900",
+        "id": "ID: 305",
+        "img": "https://buytek.net/wp-content/uploads/2021/10/iphone-13.8.jpg"
     },
     {
         "articulo": "IPhone 13Pro",
-        "precio": "$950",
-        "id": "ID: 306"
+        "precio": "950",
+        "id": "ID: 306",
+        "img": "https://www.macstation.com.ar/img/productos/2594-1.jpg"
     },
     {
         "articulo":"IPhone 13ProMax",
-        "precio": "$1000",
-        "id":"ID: 307"
+        "precio": "1000",
+        "id": "ID: 307",
+        "img": "https://buytek.net/wp-content/uploads/2021/10/Iphone-13-Pro.11.png"
     }
 ]
