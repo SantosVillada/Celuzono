@@ -117,6 +117,13 @@ const footerCarrito = () => {
     carrito = {}
     crearCarrito()
     })
+    const comprarFinal = document.getElementById('comprar-final')
+    comprarFinal.addEventListener('click', () => {
+        carrito = {}
+        crearCarrito()
+        Swal.fire('Gracias por tu compra!')
+    })
+
 }
 
 const btnDinamico = e => {
